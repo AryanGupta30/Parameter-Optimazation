@@ -1,6 +1,7 @@
 # Parameter-Optimazation
 
 Completed By: Aryan Gupta
+--
 Roll No. 102103140
 ---
 
@@ -52,36 +53,6 @@ The dataset includes the following features:
 ### Target
 
 The target variable represents the class of the dry bean.
-
-## Data Exploration
-
-Basic exploratory data analysis is performed:
-
-### Summary Statistics
-
-```python
-# Summary statistics of the dataset
-summary_statistics = X.describe()
-print(summary_statistics)
-```
-
-```python
-# Class distribution
-class_distribution = y['Class'].value_counts()
-print(class_distribution)
-```
-
-```python
-import seaborn as sns
-# Calculate correlation matrix
-correlation_matrix = X.corr()
-# Plot heatmap
-plt.figure(figsize=(12, 8))
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
-plt.title('Correlation Heatmap')
-plt.show()
-```
-
 
 
 ---
